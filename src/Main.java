@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args){
-        System.out.println("end this existence pls");
         Sign signalling = new Sign("Everything on sale, please come in", 17);
         System.out.println(signalling.getLines());
         System.out.println(signalling.numberOfLines());
